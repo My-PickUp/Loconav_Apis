@@ -1,12 +1,9 @@
 from fastapi import FastAPI, APIRouter,Depends, HTTPException, Header
-from ..database import get_db,engine
 from sqlalchemy.orm import Session
 from .. import models,schema
 import requests
 import json
 from typing import List
-
-models.Base.metadata.create_all(bind = engine)
 
 router = APIRouter(
     prefix="/Customer_slots",
