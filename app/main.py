@@ -1,7 +1,6 @@
 from __future__ import absolute_import
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-#from .routes import Vehicle_allocation, Customer_slots, Driver_slots
 from routes import device_latlon,add_fetch_data
 import models
 from database import engine
