@@ -1,0 +1,185 @@
+{
+  "status": true,
+  "data": [
+    {
+      "id": 768567,
+      "number": "KA05AN4684",
+      "notes": "Vehicle-KA05AN4684\r\nIMEI-0867440060507290\r\n",
+      "current_temperature": "N/A",
+      "last_located_at": 1706189949.0,
+      "last_location": "71, 4th Cross Rd, Phase 3, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
+      "status_message": {
+        "received_at": "25/01/2024, 07:09PM"
+      },
+      "device": {
+        "serial_number": "0867440060507290",
+        "country_code": "IN",
+        "phone_number": "5754215785928",
+        "device_type": "Concox-V5"
+      },
+      "subscription": {
+        "expires_at": "2025-01-25T11:08:17.000+05:30"
+      },
+      "current_odometer_reading": 0.0,
+      "chassis_number": "",
+      "display_number": "KA05AN4684 (Anand)",
+      "vehicle_type": "truck_generic",
+      "created_at": 1706160658,
+      "updated_at": 1706179246
+    },
+    {
+      "id": 768566,
+      "number": "KAO5AN4685",
+      "notes": "Vehicle-KAO5AN4685\r\nIMEI-0867440060507225\r\n",
+      "current_temperature": "N/A",
+      "last_located_at": 1706197885.0,
+      "last_location": "71, 4th Cross Rd, Phase 3, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
+      "status_message": {
+        "received_at": "26/01/2024, 02:22AM"
+      },
+      "device": {
+        "serial_number": "0867440060507225",
+        "country_code": "IN",
+        "phone_number": "5754215785923",
+        "device_type": "Concox-V5"
+      },
+      "subscription": {
+        "expires_at": "2025-01-25T11:08:16.000+05:30"
+      },
+      "current_odometer_reading": 0.0,
+      "chassis_number": "",
+      "display_number": "KAO5AN4685 (Rahul)",
+      "vehicle_type": "truck_generic",
+      "created_at": 1706160588,
+      "updated_at": 1706179187
+    },
+    {
+      "id": 741792,
+      "number": "KA05AM5899",
+      "notes": "Date: 30/09/2023\r\nodometer_reading: 65\r\nvehicle_type: Others\r\nlocation: WJ64+82X, BTM Layout, Bengaluru, Karnataka, 560076\r\n",
+      "current_temperature": "N/A",
+      "last_located_at": 1706078374.0,
+      "last_location": "71, 4th Cross Rd, Phase 3, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
+      "status_message": {
+        "received_at": "24/01/2024, 12:10PM"
+      },
+      "device": {
+        "serial_number": "0867440062964085",
+        "country_code": "IN",
+        "phone_number": "5754216292537",
+        "device_type": "Concox-V5"
+      },
+      "subscription": {
+        "expires_at": "2024-09-30T12:13:55.000+05:30"
+      },
+      "current_odometer_reading": 7447.0,
+      "chassis_number": "",
+      "display_number": "KA05AM5899 (Satish)",
+      "created_at": 1696056221,
+      "updated_at": 1701954039
+    },
+    {
+      "id": 741788,
+      "number": "KA05AM5915",
+      "notes": "Date: 30/09/2023\r\nodometer_reading: 33\r\nvehicle_type: Others\r\nlocation: WJ64+82X, BTM Layout, Bengaluru, Karnataka, 560076\r\n",
+      "current_temperature": "N/A",
+      "last_located_at": 1706191300.0,
+      "last_location": "76/1, 7th St, Agara Village, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
+      "status_message": {
+        "received_at": "25/01/2024, 07:31PM"
+      },
+      "device": {
+        "serial_number": "0867440062923446",
+        "country_code": "IN",
+        "phone_number": "5754216292498",
+        "device_type": "Concox-V5"
+      },
+      "subscription": {
+        "expires_at": "2024-09-30T12:08:16.000+05:30"
+      },
+      "current_odometer_reading": 6787.0,
+      "chassis_number": "",
+      "display_number": "KA05AM5915 (Vignesh)",
+      "created_at": 1696055885,
+      "updated_at": 1701653957
+    },
+    {
+      "id": 730465,
+      "number": "KA05AL8236",
+      "notes": "Date: 18/08/2023\r\nodometer_reading: 5624\r\nvehicle_type: Others\r\nlocation: 1st Floor, HSR Layout, Bengaluru, Karnataka, 560102\r\n",
+      "current_temperature": "N/A",
+      "last_located_at": 1706166509.0,
+      "last_location": "17, 13th Cross Rd, Mico Layout, Stage 2, BTM Layout, Bengaluru, Karnataka 560076, India",
+      "status_message": {
+        "received_at": "26/01/2024, 02:20AM"
+      },
+      "device": {
+        "serial_number": "0867440060729696",
+        "country_code": "IN",
+        "phone_number": "5754215101455",
+        "device_type": "Concox-V5"
+      },
+      "subscription": {
+        "expires_at": "2024-08-18T17:39:07.000+05:30"
+      },
+      "current_odometer_reading": 15156.0,
+      "display_number": "KA05AL8236 (Kiran/Chandan)",
+      "created_at": 1692355038,
+      "updated_at": 1706179219
+    },
+    {
+      "id": 730462,
+      "number": "KA05AL8235",
+      "notes": "Date: 18/08/2023\r\nodometer_reading: 6561\r\nvehicle_type: Others\r\nlocation: 7th Cross Road, HSR Layout, Bengaluru, Karnataka, 560102\r\n",
+      "current_temperature": "N/A",
+      "last_located_at": 1706167074.0,
+      "last_location": "17, 13th Cross Rd, Mico Layout, Stage 2, BTM Layout, Bengaluru, Karnataka 560076, India",
+      "status_message": {
+        "received_at": "26/01/2024, 02:20AM"
+      },
+      "device": {
+        "serial_number": "0867440060725470",
+        "country_code": "IN",
+        "phone_number": "5754215101453",
+        "device_type": "Concox-V5"
+      },
+      "subscription": {
+        "expires_at": "2024-08-18T16:00:08.000+05:30"
+      },
+      "current_odometer_reading": 13378.0,
+      "display_number": "KA05AL8235 ",
+      "created_at": 1692354596,
+      "updated_at": 1706179229
+    },
+    {
+      "id": 716136,
+      "number": "KA05AM0786",
+      "notes": "Date: 30/06/2023\r\nodometer_reading: 2510\r\nvehicle_type: Others\r\nmodel: Ape\r\nmanufacturer: ape\r\nlocation: 71, HSR Layout, Bengaluru, Karnataka, 560102\r\n",
+      "current_temperature": "N/A",
+      "last_located_at": 1706190906.0,
+      "last_location": "883, 18th D Main Road, 6th Block, Koramangala, Bengaluru, Karnataka 560047, India",
+      "status_message": {
+        "received_at": "26/01/2024, 02:20AM"
+      },
+      "device": {
+        "serial_number": "0355172103579387",
+        "country_code": "IN",
+        "phone_number": "5754202518670",
+        "device_type": "Concox-V5"
+      },
+      "subscription": {
+        "expires_at": "2024-06-30T15:21:49.000+05:30"
+      },
+      "current_odometer_reading": 0.0,
+      "chassis_number": "123",
+      "display_number": "KA05AM0786 (Abhishek)",
+      "created_at": 1688118692,
+      "updated_at": 1696322310
+    }
+  ],
+  "pagination": {
+    "total_count": 7,
+    "per_page": 10,
+    "current_page": 1
+  }
+}
