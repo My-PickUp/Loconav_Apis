@@ -97,6 +97,11 @@ def estimated_time(
     location_data = response.text
     
     location_data = json.loads(location_data)
+
+    print(location_data)
+        
+    if location_data is None:
+        return {"there is no data"}
     
     location = location_data["data"]["device_info"]["location"]
     
