@@ -85,6 +85,9 @@ def estimated_time(
     data = return_data()
     
     serial_number = get_serial_number(data,phone_number)
+
+    if serial_number is None:
+        return {"phone_number is not valid"}
         
     url = f'https://marketplace.loconav.com/api/v1/devices/lookup?serial_number={serial_number}'
     headers = {
