@@ -86,6 +86,8 @@ def estimated_time(
     
     serial_number = get_serial_number(data,phone_number)
 
+    print(serial_number)
+
     if serial_number is None:
         return {"phone_number is not valid"}
         
