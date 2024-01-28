@@ -86,7 +86,7 @@ def estimated_time(
     
     serial_number = get_serial_number(data,phone_number)
         
-    url = 'https://marketplace.loconav.com/api/v1/devices/lookup?serial_number=0867440060507290'
+    url = f'https://marketplace.loconav.com/api/v1/devices/lookup?serial_number={serial_number}'
     headers = {
      'User-Id': '2526220',
     'Admin-Authentication': '_G4q_g5nZ5gxDKTWQhN_'
