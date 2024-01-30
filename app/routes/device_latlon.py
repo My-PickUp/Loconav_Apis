@@ -100,7 +100,6 @@ def estimated_time(
         return {"phone_number is not valid"}
         
     url = f'https://marketplace.loconav.com/api/v1/devices/lookup?serial_number={serial_number}'
-<<<<<<< HEAD
     headers = {
      'User-Id': '2526220',
     'Admin-Authentication': '_G4q_g5nZ5gxDKTWQhN_'
@@ -137,8 +136,7 @@ def estimated_time_vh(
     serial_number = get_serial_number_vhnumber(data,vehicle_number)
         
     url = f'https://marketplace.loconav.com/api/v1/devices/lookup?serial_number={serial_number}'
-=======
->>>>>>> 9cd2fc8b89c252bb76223600fdba8c527e482639
+
     headers = {
      'User-Id': '2526220',
     'Admin-Authentication': '_G4q_g5nZ5gxDKTWQhN_'
