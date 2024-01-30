@@ -26,6 +26,14 @@ def get_serial_number(data,phone : str):
                 serial_number = entry["device"]["serial_number"]
                 print(serial_number)
                 return(serial_number)
+            
+def get_serial_number_vhnumber(data, vhnumber : str):
+    for entry in data['data']:
+        if "display_number" in entry:
+            if entry["display_number"][:10] == vhnumber:
+                serial_number = entry["device"]["serial_number"]
+                print(serial_number)
+                return(serial_number)
 
 user_auth = "aKUN3zzmW1X82jfNy6kw"
 
@@ -89,7 +97,43 @@ def estimated_time(
     
     serial_number = get_serial_number(data,phone_number)
         
-    url = 'https://marketplace.loconav.com/api/v1/devices/lookup?serial_number=0867440060507290'
+    url = f'https://marketplace.loconav.com/api/v1/devices/lookup?serial_number={serial_number}'
+    headers = {
+     'User-Id': '2526220',
+    'Admin-Authentication': '_G4q_g5nZ5gxDKTWQhN_'
+    }
+
+    response = requests.request("GET", url, headers=headers)
+
+    location_data = response.text
+    
+    location_data = json.loads(location_data)
+    
+    location = location_data["data"]["device_info"]["location"]
+    
+    print(location)
+    
+    source_latlon = [location]
+    dest_latlon = [str(lat) + "," + str(lon)]
+    
+    eta = get_eta_func(source_lat_lon = source_latlon, dest_lat_lon = dest_latlon)
+    
+    eta= json.dumps(json.loads(eta))
+        
+    return eta
+
+@router.get("/estimated_time_vh_number/")
+def estimated_time_vh(
+    vehicle_number : str = Header(..., description="Driver's Vehicle number"),
+    lat : str = Header(..., description='User lat'),
+    lon : str = Header(..., description='User lon')
+    ):
+    
+    data = return_data()
+    
+    serial_number = get_serial_number_vhnumber(data,vehicle_number)
+        
+    url = f'https://marketplace.loconav.com/api/v1/devices/lookup?serial_number={serial_number}'
     headers = {
      'User-Id': '2526220',
     'Admin-Authentication': '_G4q_g5nZ5gxDKTWQhN_'
