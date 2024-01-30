@@ -1,12 +1,9 @@
 from fastapi import FastAPI, APIRouter,Depends, HTTPException, Header
-from ..database import get_db,engine
 from sqlalchemy.orm import Session
 from .. import models,schema
 import requests
 import json
 from typing import List
-
-models.Base.metadata.create_all(bind = engine)
 
 router = APIRouter(
     prefix="/Customer_slots",
@@ -96,8 +93,14 @@ def estimated_time(
     data = return_data()
     
     serial_number = get_serial_number(data,phone_number)
+
+    print(serial_number)
+
+    if serial_number is None:
+        return {"phone_number is not valid"}
         
     url = f'https://marketplace.loconav.com/api/v1/devices/lookup?serial_number={serial_number}'
+<<<<<<< HEAD
     headers = {
      'User-Id': '2526220',
     'Admin-Authentication': '_G4q_g5nZ5gxDKTWQhN_'
@@ -134,6 +137,8 @@ def estimated_time_vh(
     serial_number = get_serial_number_vhnumber(data,vehicle_number)
         
     url = f'https://marketplace.loconav.com/api/v1/devices/lookup?serial_number={serial_number}'
+=======
+>>>>>>> 9cd2fc8b89c252bb76223600fdba8c527e482639
     headers = {
      'User-Id': '2526220',
     'Admin-Authentication': '_G4q_g5nZ5gxDKTWQhN_'
@@ -144,6 +149,11 @@ def estimated_time_vh(
     location_data = response.text
     
     location_data = json.loads(location_data)
+
+    print(location_data)
+        
+    if location_data is None:
+        return {"there is no data"}
     
     location = location_data["data"]["device_info"]["location"]
     
