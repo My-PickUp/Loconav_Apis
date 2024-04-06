@@ -147,9 +147,7 @@
           "expires_at": "2025-01-25T11:08:16.000+05:30"
         },
         "current_odometer_reading": 0,
-        "chassis_number": "",
         "display_number": "KAO5AN4685 (Narayan)",
-        "vehicle_type": "truck_generic",
         "created_at": 1706160588,
         "updated_at": 1710147111
       },
