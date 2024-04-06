@@ -128,6 +128,32 @@
       "updated_at": 1706179219
     },
     {
+        "id": 768566,
+        "number": "KAO5AN4685",
+        "notes": "Vehicle-KAO5AN4685\r\nIMEI-0867440060507225\r\n",
+        "current_temperature": "N/A",
+        "last_located_at": 1712403209,
+        "last_location": "2, 1st Main Rd, Defence Colony, Domlur, Bengaluru, Karnataka 560008, India",
+        "status_message": {
+          "received_at": "06/04/2024, 05:03PM"
+        },
+        "device": {
+          "serial_number": "0867440060507225",
+          "country_code": "IN",
+          "phone_number": "5754215785923",
+          "device_type": "Concox-V5"
+        },
+        "subscription": {
+          "expires_at": "2025-01-25T11:08:16.000+05:30"
+        },
+        "current_odometer_reading": 0,
+        "chassis_number": "",
+        "display_number": "KAO5AN4685 (Narayan)",
+        "vehicle_type": "truck_generic",
+        "created_at": 1706160588,
+        "updated_at": 1710147111
+      },
+    {
       "id": 730462,
       "number": "KA05AL8235",
       "notes": "Date: 18/08/2023\r\nodometer_reading: 6561\r\nvehicle_type: Others\r\nlocation: 7th Cross Road, HSR Layout, Bengaluru, Karnataka, 560102\r\n",
